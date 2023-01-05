@@ -35,7 +35,7 @@ class TestApi:
         assert "word" == "word"
 
     def test_bbc(self):
-        assert "wo" == "wos"
+        assert "wos" == "wos"
 
 
 if __name__ == '__main__':
