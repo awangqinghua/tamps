@@ -32,8 +32,6 @@ def test_key():
 
 
 test = DeExcel("../data/datas/布控任务1.xlsx", "布控任务1").get_data()
-# print(te.txt)
-
 
 print(len(test))
 
