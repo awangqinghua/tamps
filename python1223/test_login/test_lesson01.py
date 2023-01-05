@@ -35,10 +35,8 @@ class TestApi:
         assert "word" == "word"
 
     def test_bbc(self):
-        assert "wos" == "wos"
+        assert "wo" == "wos"
 
 
 if __name__ == '__main__':
     pytest.main(["-m", "regress", "-s", "-v"])
-
-    # pytest.main(['--alluredir=reports'])
