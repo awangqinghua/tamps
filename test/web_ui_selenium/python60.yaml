@@ -1,0 +1,8 @@
+
+
+logger:
+  name: python25
+
+excel:
+  file: cases.xlsx
+  sheet: login
