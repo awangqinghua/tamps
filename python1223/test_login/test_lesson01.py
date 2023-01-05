@@ -39,4 +39,5 @@ class TestApi:
 
 
 if __name__ == '__main__':
+
     pytest.main(["-m", "regress", "-s", "-v"])
