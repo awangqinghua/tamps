@@ -35,9 +35,10 @@ class TestApi:
         assert "word" == "word"
 
     def test_bbc(self):
-        assert "wos" == "wos"
+        assert "wosd" == "wos"
 
 
 if __name__ == '__main__':
-
     pytest.main(["-m", "regress", "-s", "-v"])
+
+
