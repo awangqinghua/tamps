@@ -6,8 +6,14 @@
 # @File     : test_lesson01.py
 # @Software : PyCharm
 
-
 import pytest
+
+
+@pytest.fixture
+def test_001():
+    print("aaa")
+    yield
+    print("bbb")
 
 
 @pytest.mark.smoke
@@ -22,6 +28,7 @@ def test_apis():
 
 
 @pytest.mark.smok
+@pytest.mark.usefixtures("test_001")
 def test_aping():
     assert "123" == "123"
 
@@ -40,5 +47,6 @@ class TestApi:
 
 if __name__ == '__main__':
     pytest.main(["-m", "smok", "-s", "-v"])
+
 
 
