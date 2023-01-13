@@ -6,9 +6,6 @@
 # @Software : PyCharm
 
 
-
-
-
 # 预警列表
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
