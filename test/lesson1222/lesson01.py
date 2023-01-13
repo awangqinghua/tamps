@@ -8,3 +8,9 @@
 
 print("hello worlds!")
 
+
+def add():
+    print(5+6)
+
+add()
+
