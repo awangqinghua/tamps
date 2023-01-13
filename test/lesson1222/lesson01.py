@@ -6,5 +6,5 @@
 # @File     : lesson01.py
 # @Software : PyCharm
 
-
+print("hello world")
 
